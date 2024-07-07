@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Arihant AI",
+    "slug": "arihant",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/adaptive-icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "arihant.ai"
+    },
+    "web": {
+      "favicon": "./assets/adaptive-icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "36761f99-7345-41a4-a2d4-1ca110e2222b"
+      }
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android" : {
+            "usesCleartextTraffic": true
+          }
+        }
+      ]
+    ]
+  }
+}
